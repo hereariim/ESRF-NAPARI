@@ -1,0 +1,32 @@
+name: napari-mifobio
+display_name: Mifobio
+# use 'hidden' to remove plugin from napari hub search results
+# visibility: public
+# see https://napari.org/stable/plugins/manifest.html for valid categories
+# categories: ["Annotation", "Segmentation", "Acquisition"]
+contributions:
+  commands:
+    - id: napari-mifobio.make_container_widget
+      python_name: napari_mifobio:ImageThreshold
+      title: Make threshold Container widget
+    - id: napari-mifobio.make_magic_widget
+      python_name: napari_mifobio:threshold_magic_widget
+      title: Make threshold magic widget
+    - id: napari-mifobio.make_function_widget
+      python_name: napari_mifobio:threshold_autogenerate_widget
+      title: Make threshold function widget
+    - id: napari-mifobio.my_widget #must be unique !
+      python_name: napari_mifobio:do_model_segmentation
+      title: Segmentation
+  widgets:
+    - command: napari-mifobio.make_container_widget
+      display_name: Container Threshold
+    - command: napari-mifobio.make_magic_widget
+      display_name: Magic Threshold
+    - command: napari-mifobio.make_function_widget
+      autogenerate: true
+      display_name: Autogenerate Threshold
+    - command: napari-mifobio.make_qwidget
+      display_name: Example QWidget
+    - command: napari-mifobio.my_widget #identity backend
+      display_name: Segmentation
