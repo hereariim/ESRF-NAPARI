@@ -1,6 +1,6 @@
 # DEEP NAPARI : Napari as a tool for deep learning project management
 
-![Alt text](images-credit/mifobio2023.png)
+![ESRF_Grenoble](https://github.com/hereariim/ESRF-NAPARI/assets/93375163/052ce4fc-cea1-478b-911b-0212242e4656)
 
 This document is part of the Hands on session of the MIFOBIO 2023. The aim of this document is to show the value of napari in Deep learning project managemeent
 
