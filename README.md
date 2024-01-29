@@ -1,8 +1,8 @@
-# DEEP NAPARI : Napari as a tool for deep learning project management
+# ESRF NAPARI : Napari as a tool for deep learning project management
 
 ![ESRF_Grenoble](https://github.com/hereariim/ESRF-NAPARI/assets/93375163/052ce4fc-cea1-478b-911b-0212242e4656)
 
-This document is part of the Hands on session of the MIFOBIO 2023. The aim of this document is to show the value of napari in Deep learning project managemeent
+This document is part of the Hands on session of the ESRF User Meeting T1. The aim of this document is to show the value of napari in Deep learning project managemeent
 
 It is not intended to be a training session. That would require a lot of time to fully explore napari. The Hands on session for napari is a three-part discovery activity:
 - Introducing the napari visualisation tools
@@ -51,9 +51,7 @@ Herearii Metuarea, Engineer at Université d'Angers
 Imhorphen team at Université d'Angers:
 
 * David Rousseau, Full Professor, Université d'Angers
-* Pejman Rasti, Assistant professor, Université d'Angers
-* Valentin Gilet, PhD, Université d'Angers
 
 ## Contribution
 
-This workshop is a part of MIFOBIO 2023 offered by Imhorphen team. It was written in the context of PHENET project.
+This workshop is a part of ESRF User Meeting T1 offered by Imhorphen team. It was written in the context of PHENET project.
