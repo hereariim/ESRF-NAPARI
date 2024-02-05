@@ -20,7 +20,7 @@ First of all, we're going to create a directory that will contain the plugin str
 
 *Tips: You don't need a great deal of know-how to create the structure of a plugin. The cookiecutter function creates the structure directory for you*
 
-⚠️ **Cookiecutter is already installed**
+⚠️ **Cookiecutter installation take time**
 
 In terminal, install cookiecutter with the following command
 
@@ -78,13 +78,14 @@ napari-esrf/
 │      └── test_and_deploy.yml
 ├── LICENSE
 ├── MANIFEST.in
-├── napari_esrf
-│   ├── __init__.py
-│   ├── _widget.py
-│   ├── napari.yaml
-│   └── _tests
+├── src
+│   └── napari_esrf
 │       ├── __init__.py
-│       └── test_widget.py
+│       ├── _widget.py
+│       ├── napari.yaml
+│       └── _tests
+│           ├── __init__.py
+│           └── test_widget.py
 ├── pyproject.toml
 ├── README.md
 ├── setup.cfg
@@ -95,7 +96,7 @@ Go to the plugin directory by opening it here:
 
 ![Copie de thumbnail tuto acquisition d'un objet 3D avec rangevision (1)](https://github.com/hereariim/IPPN_napari/assets/93375163/080b560f-6f7d-4543-8d6c-c34ea88e6738)
 
-In **command prompt**
+Go to Terminal > New Terminal and click **command prompt**
 
 
 ![Copie de thumbnail tuto acquisition d'un objet 3D avec rangevision](https://github.com/hereariim/IPPN_napari/assets/93375163/0432691b-cc89-4a57-81f9-543d1058fc53)
@@ -103,7 +104,7 @@ In **command prompt**
 Come back to conda environment napari
 
 ```bash
-conda activate napari
+conda activate napari-env
 ```
 
 And install the plugin locally:
